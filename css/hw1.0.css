@@ -1,0 +1,27 @@
+header{
+      background-color: #bbbbbb;
+      padding: 15px;
+}
+h1{
+      color: #ffffff;
+      text-align: center;
+      text-transform: uppercase;
+}
+h2{
+     color: #0000ff;
+     text-transform: uppercase;
+}
+section{
+      background-color: #eeee00;
+}
+a{
+     color: #111111;
+     background-color: #999999;
+     text-decoration: none;
+}
+aside{
+      display: none;
+}
+body{
+      margin: 2%;
+}

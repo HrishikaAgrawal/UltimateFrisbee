@@ -1,0 +1,96 @@
+body{
+     padding: 12px;
+     margin: 8px;
+}
+h1{
+     color: #ffffff;
+     text-transform: uppercase;
+     text-align: center;
+}
+nav a{
+     display: inline-block;
+     width: 18%;
+     text-decoration: none;
+     text-align: center;
+     background: rgba(220, 220, 220, 0.4);
+     border-radius: 5px;
+     padding: 12px;
+     margin: 20px;
+     color: #000000;
+     font-weight: bold;
+}   
+.active{
+     display: inline-block;
+     width: 18%;
+     text-decoration: none;
+     text-align: center;
+     background: rgba(300, 300, 300);
+     border-radius: 5px;
+     padding: 12px;
+     margin: 20px;
+     color: #0000aa;
+     font-weight: bold;
+}      
+header{
+     background: #998800 url("images/flywheel.jpg") no-repeat ;
+     background-size: 100%;
+     display: block;
+     padding-top: 10px;
+     padding-bottom: 20px;
+}
+img{
+     width: 80%;
+     margin: 0 auto;
+     margin-bottom: 40px;
+     display: block;
+     border: #000000 solid 3px;
+}
+.left{
+     display: inline-block;
+     background: #777700 ;
+     padding: 20px;
+     padding-top: 40px;
+     width: 17%;
+}
+.right{ 
+     display: inline-block;
+     width: 78%;
+     float: right;
+     padding-right: 2%;
+}
+table{
+     margin: 0 auto;
+     width: 75%;
+     line-height: 35px;
+     height: 35px;
+     font-family: Verdana, Arial;
+     font-weight: bold;
+}
+th{
+     box-size: border-box;
+     background-image: linear-gradient(#eef68c 0%, #eef633 100%);
+                       -moz-linear-gradient(#eef68c 0%, #eef633 100%);
+                       -webkit-linear-gradient(#eef68c 0%, #eef633 100%);
+                       -ms-linear-gradient(#eef68c 0%, #eef633 100%);
+                       -o-linear-gradient(#eef68c 0%, #eef633 100%);
+     border: 1px solid #ee953c;
+     border-bottom: 3px solid #ee953c;
+     border-radius: 4px 4px 0 0;
+     color: #081187;
+}
+table tr td:nth-child(n+2){ 
+     text-align: center;
+}
+td{
+     background: #bacafe;
+     color: #268bb5;
+     padding: 2px 2px 2px 8px;
+     border-radius: 2px;
+     text-shadow: 1px 1px #000000;
+}
+tr{
+     opacity: 0.8;
+}
+tr:hover{ 
+     opacity: 1;
+}
